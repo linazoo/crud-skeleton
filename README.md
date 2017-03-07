@@ -40,7 +40,7 @@ Create views to allow a user to:
 
 Users can add and remove channels from their user account. Users can subscribe to many channels and a channel can have many subscribers. Channels are created for you in the database seeds. Users subscribe to channels &agrave; la carte. I can subscribe to "The Poodle Network," HBO, MTV-for-people-who-remember-when-it-showed-videos, and HGTV ('cuz I'm fancy). 
 
-There are no bundles or "packages" that ~force you into paying for channels you don't want~ create outstanding entertainment options. This is a simple checkpoint ;)
+There are no bundles or "packages" that ~~force you into paying for channels you don't want~~ create outstanding entertainment options. This is a simple checkpoint ;)
 
 #### Associations
 
