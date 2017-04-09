@@ -1,4 +1,4 @@
-class CreateUsers < ActiveRecord::Migration
+class CreateUsers < ActiveRecord::Migration[5.0]
   #######################################
   #                                     #
   #     Do NOT change this schema.      #
