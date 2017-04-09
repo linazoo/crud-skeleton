@@ -1,22 +1,23 @@
 source 'https://rubygems.org'
+ruby '~> 2.2', '>= 2.2.2'
 
 # PostgreSQL driver
-gem 'pg'
+gem 'pg', '~> 0.18'
 
 # Sinatra driver
-gem 'sinatra', '~> 1.0'
+gem 'sinatra', '~> 1.4.8'
 gem 'sinatra-contrib'
 gem 'thin'
 
-gem 'activesupport', "~>4.2"
-gem 'activerecord', "~>4.2"
+gem 'activerecord', '~> 5.0'
+gem 'activesupport', '~> 5.0'
 
-gem 'rake'
+gem 'rake', '~> 12.0.0'
 gem 'bcrypt-ruby'
 
 gem 'shotgun'
 
 group :development, :test do
-  gem 'faker'
-  gem 'rspec'
+  gem 'faker', '~> 1.7.3'
+  gem 'rspec', '~> 3.5'
 end
