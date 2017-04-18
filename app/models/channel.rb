@@ -1,3 +1,3 @@
-class Channel < ActiveRecord::Base
+class Channel < ApplicationRecord
   # Remember to create a migration!
 end
